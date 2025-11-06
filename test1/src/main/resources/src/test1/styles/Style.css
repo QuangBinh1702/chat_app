@@ -1,0 +1,260 @@
+.selected-button {
+    -fx-background-color: #5FAA89;
+    -fx-background-radius: 10px;
+}
+
+.unselected-button {
+    -fx-background-color: #22C3E6;
+    -fx-background-radius: 10px;
+}
+
+.button2-style {
+    -fx-background-color: #22C3E6;
+    -fx-background-radius: 10px;
+}
+
+.hand:hover {
+    -fx-cursor: hand;
+}
+
+.mic-style {
+    -fx-background-color: #0099FF;
+    -fx-background-radius: 100;
+}
+
+.phone-style {
+    -fx-background-color: #e52020;
+    -fx-background-radius: 100;
+}
+
+.dark-blue-background {
+    -fx-background-color: #2196F3;
+    -fx-background-radius: 10px;
+}
+
+.my-message {
+    -fx-background-color: #AFE6FF;
+    -fx-background-radius: 10px;
+}
+
+.user-message {
+    -fx-background-color: #DDDDDD;
+    -fx-background-radius: 10px;
+}
+
+
+.gray-background {
+    -fx-background-color: #F2F2F2;
+}
+
+.user-box {
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+    -fx-border-style: solid;
+    -fx-background-radius: 5px;
+}
+
+.user-box:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #E0E0E0;
+    -fx-opacity: 0.7;
+}
+
+.user-box.selected {
+    -fx-background-color: #AFE6FF;
+}
+
+.user-image {
+    -fx-padding: 0 10px 0 0;
+}
+
+.user-info {
+    -fx-pref-height: 80px;
+    -fx-pref-width: 218px;
+    -fx-spacing: 5px;
+}
+
+.name-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.message-label {
+    -fx-font-size: 16px;
+    -fx-font-style: italic;
+    -fx-text-fill: gray;
+}
+
+
+/* Container chính */
+#chat_container {
+    -fx-background-color: #f5f5f5;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-alignment: top-center;
+    -fx-border-color: #d3d3d3;
+    -fx-border-width: 1;
+}
+
+
+/* Tin nhắn của chính mình */
+.my-message {
+    -fx-background-color: #bbdefb;
+    -fx-background-radius: 10;
+    -fx-padding: 10;
+    -fx-border-color: #1976d2;
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+    -fx-alignment: top-right;
+    -fx-max-width: 400px; /* Giới hạn chiều rộng */
+}
+
+.message-max-width {
+    -fx-max-width: 400px;
+}
+
+/* Tin nhắn của User */
+.user-message {
+    -fx-background-color: #DDDDDD;
+    -fx-background-radius: 10;
+    -fx-padding: 10;
+    -fx-border-color: #6b6b6b;
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+    -fx-alignment: top-left;
+    -fx-max-width: 400px; /* Giới hạn chiều rộng */
+}
+
+
+.context-menu {
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+}
+
+
+.profile-box {
+    -fx-background-color: #f9f9f9;
+    -fx-border-radius: 15;
+    -fx-padding: 20px;
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 10, 0, 0, 5);
+    -fx-pref-width: 600px;
+    -fx-pref-height: 700px;
+}
+
+.profile-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #555;
+    -fx-pref-width: 150px; /* Đặt chiều rộng cố định để các nhãn thẳng hàng */
+    -fx-alignment: CENTER_LEFT; /* Căn chữ của nhãn sang trái */
+}
+
+.text-field {
+    -fx-font-size: 16px;
+    -fx-padding: 8px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-background-color: #fff;
+    -fx-pref-width: 300px; /* Đặt chiều rộng cho trường nhập liệu */
+}
+
+button {
+    -fx-font-size: 16px;
+    -fx-background-color: #FFDD00;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+button:hover {
+    -fx-background-color: #e5c100;
+}
+
+button#btnSave {
+    -fx-background-color: #28a745;
+}
+
+button#btnCancel {
+    -fx-background-color: #dc3545;
+}
+
+
+.group-box {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-alignment: CENTER_LEFT;
+    -fx-border-color: #ddd;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-background-color: #f9f9f9;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.group-box:hover {
+    -fx-background-color: #e9e9e9;
+}
+
+.group-image {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0, 2, 2);
+    -fx-border-radius: 50%;
+}
+
+.group-info {
+    -fx-spacing: 5;
+}
+
+.name-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.details-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+.context-menu {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dddddd;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0, 0, 2);
+}
+
+.menu-item {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+    -fx-padding: 5px 10px;
+}
+
+.menu-item:hover {
+    -fx-cursor: hand;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
